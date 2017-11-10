@@ -1,0 +1,32 @@
+body {
+    background-color: orange;
+} 
+.porte {
+    display: inline-block;
+    width: 216px;
+    height: 216px;
+    background-image: url('../img/door.png');
+    background-size: 216px;
+}
+th {
+    font-size: 320%;
+    color: lightgreen;
+    text-shadow: 0 0 2px black;
+}
+h1 {
+    text-align: center;
+    color: lightblue;
+    text-shadow: 0 0 2px blue;
+}
+
+.dragon{
+    width: 108px;
+    height: 108px;
+    background-image: url('../img/dragon.png');
+}
+
+.singe{
+    width: 120px;
+    height: 120px;
+    background-image: url('../img/monkey.png');
+}

@@ -1,0 +1,83 @@
+body {
+    background-color: lightcyan;
+} 
+.porte {
+    display: inline-block;
+    width: 216px;
+    height: 216px;
+    background-image: url('../img/door.png');
+    background-size: 216px;
+}
+h1 {
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 2px white;
+}
+
+.dragon{
+    width: 108px;
+    height: 108px;
+    background-image: url('../img/dragon.png');
+}
+
+.singe{
+    width: 120px;
+    height: 120px;
+    background-image: url('../img/monkey.png');
+}
+.soleil{
+    width: 108px;
+    height: 108px;
+    background-image: url('../img/sun.png');
+}
+.nuage{
+    width: 108px;
+    height: 108px;
+    background-image: url('../img/cloud.png');
+}
+
+.ciel{
+    width: 108px;
+    height: 108px;
+}
+
+.sapin{
+    width: 108px;
+    height: 120px;
+    background-image: url('../img/evergreen-tree.png');
+}
+
+@keyframes bourdon {
+    0% {background-position: 540px 0; }
+    100% {background-position: -40px 0; }
+}
+
+@keyframes automne {
+    0% {background-position: 0 0; }
+    100% {background-position: 0 432px; }
+}
+
+.abeille{
+    width: 108px;
+    height: 108px;
+    background-image: url('../img/honeybee.png');
+    transform: translation(300px);
+}
+
+.cielAnim{
+    width: 540px;
+    height: 54px;
+    background-image: url('../img/honeybee.png');
+    background-size: 54px;
+    background-repeat: no-repeat;
+    background-position: 540px 0;
+    animation: bourdon 20s linear infinite;
+}
+
+.feuilles{
+    width: 108px;
+    height: 432px;
+    background-image: url('../img/leaf-fluttering.png');
+    background-repeat: no-repeat;
+    animation: automne 14.14s linear infinite;
+}
