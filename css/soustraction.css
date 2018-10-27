@@ -30,3 +30,42 @@ h1 {
     height: 120px;
     background-image: url('../img/monkey.png');
 }
+
+#temple{ 
+    border-top: 2px solid brown;
+    border-right: 2px solid brown;
+    border-bottom: none;
+    border-left: 2px solid brown;
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    background-color: yellow;
+}
+.fefe,.feff,.fehe,.fehf,.fefh,.fehh,.fffe,.ffhe,.ffhh,.fhfe,.fhhe,.hefe,.heff,.hehe,.hehh,.hffe,.hfhh,.hhfe,.hhhe,.hhhf,.hhhh { 
+    width: 24px; 
+    height: 24px; 
+    padding: 0; 
+    min-width: 24px;
+    font-size: 14px;
+}
+
+.fefe{ background-image: url('../img/fefe.png');  }
+.feff{ background-image: url('../img/feff.png');  }
+.fefh{ background-image: url('../img/fefh.png');  }
+.fehe{ background-image: url('../img/fehe.png');  }
+.fehf{ background-image: url('../img/fehf.png');  }
+.fehh{ background-image: url('../img/fehh.png');  }
+.fffe{ background-image: url('../img/fffe.png');  }
+.ffhe{ background-image: url('../img/ffhe.png');  }
+.ffhh{ background-image: url('../img/ffhh.png');  }
+.fhfe{ background-image: url('../img/fhfe.png');  }
+.fhhe{ background-image: url('../img/fhhe.png');  }
+.hefe{ background-image: url('../img/hefe.png');  }
+.heff{ background-image: url('../img/heff.png');  }
+.hehe{ background-image: url('../img/hehe.png');  }
+.hehh{ background-image: url('../img/hehh.png');  }
+.hffe{ background-image: url('../img/hffe.png');  }
+.hfhh{ background-image: url('../img/hfhh.png');  }
+.hhfe{ background-image: url('../img/hhfe.png');  }
+.hhhe{ background-image: url('../img/hhhe.png');  }
+.hhhf{ background-image: url('../img/hhhf.png');  }
+.hhhh{ background-image: url('../img/hhhh.png');  }
