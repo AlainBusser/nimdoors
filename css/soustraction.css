@@ -31,15 +31,26 @@ h1 {
     background-image: url('../img/monkey.png');
 }
 
+.parchemin{
+    width: 160px;
+    border: 2px outset brown;
+    background-color: rgba(128,128,0,0.5);
+    border-radius: 10px;
+    box-shadow: 5px 3px 8px rgba(1,1,1,0.2);
+}
+
 #temple{ 
-    border-top: 2px solid brown;
-    border-right: 2px solid brown;
+#    border-top: 2px solid brown;
+    border-right: 3px outset brown;
     border-bottom: none;
-    border-left: 2px solid brown;
+    border-left: 3px inset brown;
     border-collapse: collapse; 
     border-spacing: 0; 
     background-color: yellow;
 }
+#temple:hover{cursor: zoom-in;}
+
+.ici {background-color:lightyellow}
 .fefe,.feff,.fehe,.fehf,.fefh,.fehh,.fffe,.ffhe,.ffhh,.fhfe,.fhhe,.hefe,.heff,.hehe,.hehh,.hffe,.hfhh,.hhfe,.hhhe,.hhhf,.hhhh { 
     width: 24px; 
     height: 24px; 
@@ -69,3 +80,11 @@ h1 {
 .hhhe{ background-image: url('../img/hhhe.png');  }
 .hhhf{ background-image: url('../img/hhhf.png');  }
 .hhhh{ background-image: url('../img/hhhh.png');  }
+
+
+.X{
+    background-image: url('../img/X.png');
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+}
+
