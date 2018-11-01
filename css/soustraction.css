@@ -1,12 +1,27 @@
 body {
     background-color: orange;
+    background-image: url('../img/spider-web.png');
 } 
+
+@keyframes youpi{
+    0% {transform: translate(0,0);}
+    25%{transform: translate(0,-10px);}
+    100%{transform: translate(0,-20px);}
+}
+
+
 .porte {
     display: inline-block;
     width: 216px;
     height: 216px;
     background-image: url('../img/door.png');
     background-size: 216px;
+    transform-origin: 0 0;
+    transition: transform 2s;
+}
+.porte:hover{
+    cursor: url('../img/personnages.png'), pointer;
+    transform: skewY(15deg);
 }
 th {
     font-size: 320%;
@@ -22,13 +37,24 @@ h1 {
 .dragon{
     width: 108px;
     height: 108px;
-    background-image: url('../img/dragon.png');
+    background-image: url('../img/dragon.gif');
+}
+.dragon:hover{
+   animation-duration: 0.2s;
+   animation-name: youpi;
+   animation-iteration-count: 5;
 }
 
 .singe{
     width: 120px;
     height: 120px;
-    background-image: url('../img/monkey.png');
+    background-image: url('../img/monkey.gif');
+}
+
+.singe:hover{
+   animation-duration: 0.4s;
+   animation-name: youpi;
+   animation-iteration-count: 4;
 }
 
 .parchemin{
@@ -37,6 +63,14 @@ h1 {
     background-color: rgba(128,128,0,0.5);
     border-radius: 10px;
     box-shadow: 5px 3px 8px rgba(1,1,1,0.2);
+    transition: transform 1.5s, box-shadow 0.2s;
+}
+.parchemin:hover{
+   cursor: url('../img/loupe.png'), zoom-in;
+   background-color: rgba(255,255,0,0.5);
+   box-shadow: 0 0 20px yellow;
+   transform-origin: 0 100%;
+   transform: scale(1.5);
 }
 
 #temple{ 
@@ -47,8 +81,13 @@ h1 {
     border-collapse: collapse; 
     border-spacing: 0; 
     background-color: yellow;
+    box-shadow: 8px 5px 12px rgba(1,1,1,0.3);
+    transition: transform 1.5s;
 }
-#temple:hover{cursor: zoom-in;}
+#temple:hover{
+    cursor: url(../img/bougie.png), zoom-in;
+    transform: scale(1.5);
+}
 
 .ici {background-color:lightyellow}
 .fefe,.feff,.fehe,.fehf,.fefh,.fehh,.fffe,.ffhe,.ffhh,.fhfe,.fhhe,.hefe,.heff,.hehe,.hehh,.hffe,.hfhh,.hhfe,.hhhe,.hhhf,.hhhh { 
@@ -82,9 +121,7 @@ h1 {
 .hhhh{ background-image: url('../img/hhhh.png');  }
 
 
-.X{
-    background-image: url('../img/X.png');
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
+.ici:hover{
+    cursor: url('../img/X.png'), zoom-in;
 }
 
